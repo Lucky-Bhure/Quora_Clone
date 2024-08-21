@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quora</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <div class="show">
+        <p><a class="back" onclick="location.href = '/posts'"><</a></p>
+        <h1 class="welcome">Welcome to Quora</h1>
+        <h2>Edit Your Post</h2>
+        <h4 class="id">Id : <%=post.id%></h4>
+        <h2 class="username">@<%= post.username %></h2>
+        <form style="margin: 20px 0px;" method="post" action="/posts/<%=post.id%>?_method=PATCH">
+            <textarea name="content" class="postinput"><%= post.content %></textarea><br>
+            <button class="btn">Submit</button>
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quora</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+
+<body class="newpost">
+    <div class="backdiv">
+        <p><a class="back" onclick="location.href = '/posts'"><</a></p>
+    </div>
+    <div class="newpostbody">
+        <div class="box">
+            <h2 class="heading">Create New Post</h2>
+            <form class="postform" method="post" action="/posts">
+                <input placeholder="Enter username" name="username" class="usernameinput">
+                <textarea placeholder="Write your post" name="content" class="postinput"></textarea>
+                <button class="btn">Submit Post</button>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
