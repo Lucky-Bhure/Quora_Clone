@@ -75,5 +75,3 @@ Quora Clone is a simple blog application built with Express.js. It allows users 
 This project is licensed under the MIT License. Feel free to use, modify, and distribute it as you like.
 
 ---
-
-This `README.md` gives a clear overview of your project, including its features, structure, and how to set it up and use it. It also provides a pathway for future improvements and includes licensing information.
